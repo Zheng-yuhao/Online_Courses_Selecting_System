@@ -5,7 +5,7 @@ from core import teacher
 func_dict = {
     '1':admin.admin_view,
     '2':student.student_view,
-    '3':None
+    '3':teacher.teacher_view
 }
 
 def run():

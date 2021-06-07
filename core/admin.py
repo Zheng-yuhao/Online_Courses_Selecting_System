@@ -105,6 +105,7 @@ def create_teacher():
         flag, msg = admin_interface.create_teacher(teacher_name, admin_info.get('user'))
         if flag:
             print(msg)
+            break
         else:
             print(msg)
 

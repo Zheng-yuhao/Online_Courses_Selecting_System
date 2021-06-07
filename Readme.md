@@ -4,7 +4,8 @@
 python 3.8
 
 ## Goal
-A practice project that can help myself or maybe watchers to improve the python basic power.
+A practice project that can help myself or maybe watchers to improve 
+the python basic power. Actually, this project is just a prototype.
 
 ## Constitutes
 
