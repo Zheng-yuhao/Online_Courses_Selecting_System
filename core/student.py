@@ -60,9 +60,9 @@ def login():
 def select_school():
     while True:
         print('学生选择校区功能启动 >>>')
-        re, msg = common_interface.get_all_school_interface()
+        msg, re = common_interface.get_all_school_interface()
 
-        for index, school_name in enumerate(msg):
+        for index, school_name in enumerate(re):
             print(f'编号:{index}, 学校名:{school_name}')
 
         school_choice = input('请输入你要选择的学校名 >>> : ').strip()
@@ -71,7 +71,7 @@ def select_school():
             print('请输入数字')
             continue
         school_choice = int(school_choice)
-        if not school_choice in range(len(msg)):
+        if not school_choice in range(len(re)):
             print('输入的数字超出列表值,请重新输入')
             continue
         school_name = re[school_choice]

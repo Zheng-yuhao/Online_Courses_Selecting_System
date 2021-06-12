@@ -8,7 +8,7 @@ teacher_info = {
 
 
 # Teacher's login function
-def register():
+def login():
     print('login function is working >>> ')
     while True:
         user = input('Please enter your user_id').strip()
@@ -84,7 +84,7 @@ def check_student():
 
 
 func_dict = {
-    '1':register,
+    '1':login,
     '2':check_course_list,
     '3':select_course,
     '4':check_student,

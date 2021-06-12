@@ -19,5 +19,5 @@ def get_all_course_interface():
     if not os.path.exists(course_dir):
         return False, f'没有相关学校文件,请联系管理员'
 
-    school_list = os.listdir(course_dir)
+    course_list = os.listdir(course_dir)
     return True, course_list
